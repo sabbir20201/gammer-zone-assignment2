@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100&family=Open+Sans:ital,wght@1,300&family=Poppins:wght@300;400;500;700&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* 
+main {
+    width: 1440px;
+    margin: 0px auto;
+} */
+
+section {
+    margin: 60px 0;
+}
+
+.stop-color {
+    color: #FF42A5;
+}
+
+/* shared style  */
+
+nav {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 8rem;
+    margin: 0px auto;
+    border: 1px solid red;
+}
+
+.logo-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 5.3rem;
+    height: 40px;
+    flex-shrink: 0;
+    color: #FF42A5;
+}
+
+.logo-title {
+    display: inline-block;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.manus-container {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.manus-container ul {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.manus-container ul li {
+    list-style: none;
+}
+
+.manus-container ul li a {
+    text-decoration: none;
+}
+
+/* .manus-container ul li:last-child {
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+} */
+
+/* navbar style end  */
+/* banner style start  */
+
+/* banner end start  */
+.banner-container {
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    border: 1px solid red;
+
+}
+
+.banner-background {
+    width: 50%;
+    background-image: url('../images/Group\ 14.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    border: 1px solid blueviolet;
+    /* min-height: 700px; */
+}
+
+.banner-content {
+    padding: 180px 0px;
+    border: 1px solid red;
+}
+
+.banner-content .btn {
+    margin-top: 10px;
+}
+
+.banner-img {
+    width: 50%;
+    border: 1px solid;
+}
+
+.banner-img img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-content-h2 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.banner-content-h1 {
+    font-size: 6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon {
+    width: 30xp;
+    height: 30px;
+    background-color: red;
+}
+
+.banner-content>p {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 10px;
+
+}
+
+.fa-person,
+.fa-download,
+.fa-circle-play {
+    width: 24px;
+    height: 24px;
+
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 21px 40px;
+    border: none;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.btn-go {
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+/* gammer style start  */
+
+/* .we-are-gamer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.we-are-gamer-content {
+    width: 50%;
+}
+
+.we-are-gamer-img {
+    width: 50%;
+}
+
+.gamer-img {
+    width: 100%;
+}
+
+.gamer-h2 {
+
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.gamer-para {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 1rem 0;
+    /* 166.667% */
+
+
+/* .gamer-h4 {
+    color: #534C64;
+    font-size: 2rem;
+
+    font-weight: 700;
+}
+
+.our-purpose {
+
+
+    color: #534C64;
+
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}  */
+
+/* gammer style end  */
+
+/* video style start  */
+.video-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+
+.single-video-card {
+    width: 100%;
+}
+
+.card-img {
+    width: 290px;
+}
+
+.section-title {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.funny-videos {
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.section-para {
+    color: #534C64;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+/* video style end  */
+
+/* no download style start  */
+.no-download-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.no-download-content {
+    width: 40%;
+    text-align: right;
+    padding-right: 90px;
+}
+
+.no-download-content>h2 {
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    /* 125% */
+}
+
+.no-download-content>p {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.play {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.no-download-img {
+    width: 60%;
+    position: relative;
+    border: 1px solid blue;
+
+}
+
+.img-div {
+    width: 100%;
+    text-align: right;
+
+
+}
+
+.img1 {
+    width: 100%;
+}
+
+.icon-img {
+    width: 250px;
+}
+
+.small-div {
+    width: 8px;
+    position: absolute;
+    top: 415px;
+}
+
+/* no download style end  */
+.small-card {
+    width: 230px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid blue;
+}
+
+.small-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.action {
+    border: 1px solid red;
+}
+
+/* responsive start here  */
+/* navbar responsive for mobile  */
+@media screen and (max-width:576px) {
+    nav {
+        height: 12rem;
+        padding-top: 20px;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-container {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .manus-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .manus-container ul {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+
+/* navbar responsive for tablet */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav {
+        height: 12rem;
+        padding-top: 20px;
+    }
+
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .logo-container {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .manus-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .manus-container ul {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+}
+
+/* banner responsive  */
+@media screen and (max-width:576px) {
+    .banner-container {
+        /* display: flex; */
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 1rem;
+        flex-direction: column-reverse;
+    }
+
+    .banner-background {
+        width: 100%;
+        background-image: url('../images/Group\ 14.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* min-height: 700px; */
+    }
+
+    .banner-content {
+        text-align: center;
+        padding: 60px 30px;
+    }
+
+    .banner-img {
+        width: 100%;
+        border: 1px solid;
+
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+}
+
+/* banner for desktop */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .banner-container {
+        /* display: flex; */
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 1rem;
+        flex-direction: column-reverse;
+    }
+
+    .banner-background {
+        width: 100%;
+        background-image: url('../images/Group\ 14.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .banner-content {
+        padding: 0px 0px;
+        border: 1px solid red;
+    }
+
+    .banner-img {
+        width: 100%;
+        border: 1px solid;
+
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+}
+
+/* gamer responsive  */
+
+@media screen and (max-width:576px) {
+    .we-are-gamer-container {
+        /* display: flex; */
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .we-are-gamer-content {
+        width: 100%;
+
+        /* min-height: 700px; */
+    }
+
+    .we-are-gamer-img {
+        width: 100%;
+    }
+
+    .gamer-img {
+        width: 100%;
+        border: 1px solid;
+
+    }
+
+    .gamer-img img {
+        width: 100%;
+    }
+}
+
+/* card responsive  */
+@media screen and (max-width:576px) {
+    .video-container {
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .single-video-card {
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .single-video-card.card-img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .video-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .single-video-card {
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .single-video-card.card-img {
+        /* width: 100%; */
+    }
+}
+
+/* card responsive end */
+/* no download responsive  */
+@media screen and (max-width: 576px) {
+    .no-download-container {
+        flex-direction: column;
+        box-sizing: border-box;
+        align-items: center;
+        margin: 0 20px;
+    }
+
+    .no-download-content {
+        width: 100%;
+        text-align: center;
+        padding-right: 20px;
+    }
+
+    .no-download-img {
+        width: 100%;
+        position: relative;
+        border: 1px solid blue;
+        overflow: hidden;
+
+    }
+
+    .no-download-content>h2 {
+        text-align: center;
+    }
+
+    .img-div {
+        width: 100%;
+        text-align: right;
+
+
+    }
+
+    .img1 {
+        width: 100%;
+    }
+
+    .icon-img {
+        width: 250px;
+    }
+
+    .small-div {
+        width: 8px;
+        position: absolute;
+        top: 415px;
+    }
+
+
+}
+
+/* for tablet  */
+
+@media screen and (min-width:576px) and(max-width:992px) {
+    .no-download-container {
+        flex-direction: column;
+        box-sizing: border-box;
+        align-items: center;
+        margin: 0 20px;
+        overflow: hidden;
+    }
+
+    .no-download-content {
+        width: 100%;
+        text-align: center;
+        padding-right: 20px;
+    }
+
+    .no-download-img {
+        width: 100%;
+        position: relative;
+        border: 1px solid blue;
+        overflow: hidden;
+
+    }
+
+    .no-download-content>h2 {
+        text-align: center;
+    }
+
+    .img-div {
+        width: 100%;
+        text-align: right;
+    }
+
+    .no-download-content>h2 {
+        text-align: center;
+    }
+
+    .img-div {
+        width: 100%;
+        text-align: right;
+        overflow: hidden;
+
+    }
+
+    .img1 {
+        width: 100%;
+        overflow: hidden;
+
+    }
+
+    .icon-img {
+        width: 250px;
+    }
+
+    .small-div {
+        width: 8px;
+        position: absolute;
+        top: 415px;
+    }
+
+}
+
+/* no download responsive end  */
