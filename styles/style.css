@@ -245,8 +245,8 @@ nav {
     text-align: center;
 }
 
-.single-video-card.play-button {
-    background-color: linear-gradient(rgb(0, 0, 0)rgba(0, 0, 0, .1));
+.single-video-card.gradient-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
 }
 
 .fa-circle-play {}
@@ -270,8 +270,6 @@ nav {
 .no-download-img {
     width: 60%;
     position: relative;
-    border: 1px solid blue;
-
 }
 
 .img-div {
