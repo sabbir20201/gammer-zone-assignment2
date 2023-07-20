@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100&family=Open+Sans:ital,wght@1,300&family=Poppins:wght@300;400;500;700&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
 
-
 * {
     padding: 0px;
     margin: 0px;
@@ -11,18 +10,8 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-/* 
-main {
-    width: 1440px;
-    margin: 0px auto;
-} */
-
 section {
     margin: 80px 0;
-}
-
-.stop-color {
-    color: #FF42A5;
 }
 
 /* shared style  */
@@ -30,7 +19,6 @@ section {
 nav {
     background: #fff;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    /* border: 1px solid blue; */
 
 }
 
@@ -106,6 +94,7 @@ nav {
 }
 
 /* navbar style end  */
+
 /* banner style start  */
 
 .banner-container {
@@ -196,66 +185,8 @@ nav {
     background: #4EC5F7;
 }
 
-/* banner end start  */
-/* gammer style start  */
+/* banner end end  */
 
-/* .we-are-gamer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-}
-
-.we-are-gamer-content {
-    width: 50%;
-}
-
-.we-are-gamer-img {
-    width: 50%;
-}
-
-.gamer-img {
-    width: 100%;
-}
-
-.gamer-h2 {
-
-    font-family: Work Sans;
-    font-size: 3rem;
-    font-weight: 700;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-}
-
-.gamer-para {
-    color: #534C64;
-    font-size: 1.25rem;
-    font-weight: 400;
-    line-height: 30px;
-    margin: 1rem 0;
-    /* 166.667% */
-
-
-/* .gamer-h4 {
-    color: #534C64;
-    font-size: 2rem;
-
-    font-weight: 700;
-}
-
-.our-purpose {
-
-
-    color: #534C64;
-
-    font-size: 1.5rem;
-    font-weight: 500;
-
-}  */
-
-/* gammer style end  */
 
 /* video style start  */
 .video-container {
@@ -263,12 +194,18 @@ nav {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    /* flex-wrap: wrap; */
 }
 
 .single-video-card {
     width: 100%;
     position: relative;
+}
+
+.single-video-card>p {
+    padding: 3px 4px;
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 .card-img {
@@ -307,8 +244,9 @@ nav {
     font-size: 60px;
     text-align: center;
 }
-.single-video-card.play-button{
-    background-color:linear-gradient(rgb(0, 0, 0)rgba(0,0,0,.1));
+
+.single-video-card.play-button {
+    background-color: linear-gradient(rgb(0, 0, 0)rgba(0, 0, 0, .1));
 }
 
 .fa-circle-play {}
@@ -320,7 +258,6 @@ nav {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -354,7 +291,6 @@ nav {
     text-align: right;
     font-size: 3rem;
     font-weight: 700;
-    /* 125% */
 }
 
 .no-download-content>p {
@@ -428,10 +364,6 @@ nav {
 
 }
 
-.action {
-    /* border: 1px solid red; */
-}
-
 /* small card style end   */
 
 /* footer style start  */
@@ -482,9 +414,8 @@ footer {
 
 /* footer style start  */
 
-
-
 /* responsive start here  */
+
 /* navbar responsive for mobile  */
 @media screen and (max-width:576px) {
     .nav-container {
@@ -587,7 +518,6 @@ footer {
 
 @media screen and (min-width:576px) and (max-width:992px) {
     .banner-container {
-        /* display: flex; */
         flex-direction: column;
         width: 100%;
         box-sizing: border-box;
